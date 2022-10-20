@@ -4,7 +4,7 @@ This is an example app to demo frontend and backend error monitoring in the High
 
 ## Getting Started
 You can get this demo up and running on Vercel in 2 steps:
-1. [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhighlight-run%2Fnextjs-highlight-demo)
+1. [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhighlight-run%2Fnextjs-highlight-demo&integration-ids=oac_AoH5XHA6a43pkrCH4Gw1Tpu7)
 2. Install the [Highlight integration](https://vercel.com/integrations/highlight). You may need to redeploy your Vercel project for the new environment variables to be deployed.
 
 After installing the Highlight integration, you can monitor your sessions and errors in [Highlight](https://app.highlight.run).
