@@ -1,32 +1,40 @@
 {
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "next dev -p 3008",
-    "build-old": "next build",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@highlight-run/next": "^1.4.3",
-    "@highlight-run/react": "^1.2.1",
-    "@sentry/nextjs": "^7.13.0",
-    "antd": "^4.23.2",
-    "dotenv": "^16.0.3",
-    "highlight.run": "^4.4.1",
-    "next": "^12.3.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@highlight-run/sourcemap-uploader": "^0.3.3",
-    "eslint": "^7.32.0 || ^8.2.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "^12.0.8",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
-  }
+	"name": "nextjs",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3005",
+		"build": "next build",
+		"deploy": "yarn build && npx vercel build && npx vercel deploy --prebuilt",
+		"start": "next start",
+		"vercel:deploy": "yarn build && vercel build && vercel deploy --prebuilt",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@highlight-run/next": "^4.0.0",
+		"@next/env": "^13.4.12",
+		"@tanstack/react-query": "^4.29.7",
+		"@trpc/client": "^10.26.0",
+		"@trpc/next": "^10.26.0",
+		"@trpc/react-query": "^10.26.0",
+		"@trpc/server": "^10.26.0",
+		"@types/node": "18.15.11",
+		"@types/react": "18.0.35",
+		"@types/react-dom": "18.0.11",
+		"babylonjs": "^6.11.2",
+		"classnames": "^2.3.2",
+		"eslint": "8.39.0",
+		"eslint-config-next": "13.4.12",
+		"ky": "^0.33.3",
+		"next": "13.4.12",
+		"next-build-id": "^3.0.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"typescript": "5.0.4",
+		"winston": "^3.8.2",
+		"zod": "^3.21.4"
+	},
+	"devDependencies": {
+		"vercel": "^31.0.2"
+	}
 }
