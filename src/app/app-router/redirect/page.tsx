@@ -6,12 +6,12 @@ type Props = {
 
 export default function RedirectPage({ searchParams }: Props) {
 	if (searchParams.shouldRedirect) {
-		return redirect(`/isr`)
+		return redirect(`/ssr`)
 	}
 
 	return (
 		<div>
-			<h1>App Directory: No Redirect</h1>
+			<h1>App Router: No Redirect</h1>
 		</div>
 	)
 }
