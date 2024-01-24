@@ -27,27 +27,27 @@ export function PathButtons() {
 				}}
 			/>
 			<ErrorBoundary>
-				<Link href="/isr">
+				<Link href="/ssr">
 					<Button>Standard ISR: Success</Button>
 				</Link>
 				<hr />
-				<Link href="/isr?error=true">
+				<Link href="/ssr?error=true">
 					<Button>Standard ISR: Error</Button>
 				</Link>
 				<hr />
-				<Link href="/app-router/isr">
-					<Button>App Directory: Success</Button>
+				<Link href="/app-router/ssr">
+					<Button>App Router: Success</Button>
 				</Link>
 				<hr />
-				<Link href="/app-router/isr?error=true">
-					<Button>App Directory: Error</Button>
+				<Link href="/app-router/ssr?error=true">
+					<Button>App Router: Error</Button>
 				</Link>
 				<hr />
 				<Link href="/redirect?shouldRedirect=true">
 					<Button>Redirect (link)</Button>
 				</Link>
 				<Link href="/app-router/redirect?shouldRedirect=true">
-					<Button>App Directory: Redirect (link)</Button>
+					<Button>App Router: Redirect (link)</Button>
 				</Link>
 				<Button
 					onClick={() => {

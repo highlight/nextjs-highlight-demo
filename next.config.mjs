@@ -1,12 +1,15 @@
 // next.config.mjs
 import { withHighlightConfig } from '@highlight-run/next/config'
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-	experimental: {
-		// instrumentationHook: true,
-	},
 	productionBrowserSourceMaps: true,
-	images: { domains: ['i.travelapi.com'] },
+	experimental: {
+		serverComponentsExternalPackages: ['pino', 'pino-pretty'],
+	},
+	images: {
+		remotePatterns: [{ protocol: 'https', hostname: 'i.travelapi.com' }],
+	},
 }
 
 export default withHighlightConfig(nextConfig)
