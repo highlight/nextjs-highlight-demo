@@ -160,12 +160,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@highlight-run/next@npm:^7.3.4":
-  version: 7.3.4
-  resolution: "@highlight-run/next@npm:7.3.4"
+"@highlight-run/next@npm:^7.3.5":
+  version: 7.3.5
+  resolution: "@highlight-run/next@npm:7.3.5"
   dependencies:
     "@highlight-run/cloudflare": "npm:2.1.4"
-    "@highlight-run/node": "npm:3.7.2"
+    "@highlight-run/node": "npm:3.7.3"
     "@highlight-run/opentelemetry-sdk-workers": "npm:1.0.5"
     "@highlight-run/react": "npm:3.2.1"
     "@highlight-run/sourcemap-uploader": "npm:0.6.0"
@@ -173,14 +173,21 @@ __metadata:
   peerDependencies:
     next: ">=11"
     react: ">=17"
-  checksum: 3e46e761a12c8eaafe4385ec2c77c24b79c2ef239754a975364948d581fd4ac4afb30811a6ffbd147a9f7221ed80d2fa7c6bcbb5a6d0ae3eed49552186873ab4
+  checksum: 234f6ff09ff9df1a897397f736b7827f257e1da4cb8059cee4b1d643274f637fc571233a393f7df65d64890b4bbd9891a6abff25f7253fdce928d6617c302164
   languageName: node
   linkType: hard
 
-"@highlight-run/node@npm: *, @highlight-run/node@npm:3.7.2":
+"@highlight-run/node@npm: *":
   version: 3.7.2
   resolution: "@highlight-run/node@npm:3.7.2"
   checksum: 16d8430cd107042931432df2c0002da8c73349006a661eea89d83b0ca770fcd752bc1fd582e02a721db24d30b30cf7f4fe1e7b54f29bec0332a768cbd850e31c
+  languageName: node
+  linkType: hard
+
+"@highlight-run/node@npm:3.7.3":
+  version: 3.7.3
+  resolution: "@highlight-run/node@npm:3.7.3"
+  checksum: 32220d7788ba624ae7aa709803058fd3bb0ca49ae0aa7d8c503f93e9b219e424d2e09cfbd43be17a9319fcaa08dbd641f884db4c0e51c9c4c9d85ab02b1aed20
   languageName: node
   linkType: hard
 
@@ -4441,7 +4448,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs@workspace:."
   dependencies:
-    "@highlight-run/next": "npm:^7.3.4"
+    "@highlight-run/next": "npm:^7.3.5"
     "@highlight-run/pino": "npm:^0.1.6"
     "@next/env": "npm:^14.0.4"
     "@tanstack/react-query": "npm:4"

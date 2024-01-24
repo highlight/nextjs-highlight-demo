@@ -10,7 +10,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@highlight-run/next": "^7.3.4",
+		"@highlight-run/next": "^7.3.5",
 		"@highlight-run/pino": "^0.1.6",
 		"@next/env": "^14.0.4",
 		"@tanstack/react-query": "4",
