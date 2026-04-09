@@ -1,45 +1,45 @@
 {
-	"name": "nextjs",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev -p 3005",
-		"build": "next build",
-		"deploy": "yarn build && vercel build && vercel deploy --prebuilt",
-		"start": "next start -p 3005",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@highlight-run/next": "^7.3.5",
-		"@highlight-run/pino": "^0.1.6",
-		"@next/env": "^14.0.4",
-		"@tanstack/react-query": "4",
-		"@trpc/client": "^10.45.0",
-		"@trpc/next": "^10.45.0",
-		"@trpc/react-query": "^10.45.0",
-		"@trpc/server": "^10.45.0",
-		"@types/node": "20.11.5",
-		"@types/pg": "^8.10.9",
-		"@types/react": "18.2.48",
-		"@types/react-dom": "18.2.18",
-		"babylonjs": "^6.38.1",
-		"classnames": "^2.5.1",
-		"eslint": "8.56.0",
-		"eslint-config-next": "^14.0.4",
-		"ky": "^1.2.0",
-		"next": "^14.0.4",
-		"next-build-id": "^3.0.0",
-		"pg": "^8.11.3",
-		"pino": "^8.17.2",
-		"pino-pretty": "^10.3.1",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
-		"typescript": "5.3.3",
-		"winston": "^3.11.0",
-		"zod": "^3.22.4"
-	},
-	"devDependencies": {
-		"vercel": "^33.1.0"
-	},
-	"packageManager": "yarn@4.0.2"
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3005",
+    "build": "next build",
+    "deploy": "yarn build && vercel build && vercel deploy --prebuilt",
+    "start": "next start -p 3005",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@highlight-run/next": "^7.3.5",
+    "@highlight-run/pino": "^0.1.6",
+    "@next/env": "^14.0.4",
+    "@tanstack/react-query": "4",
+    "@trpc/client": "^10.45.0",
+    "@trpc/next": "^10.45.0",
+    "@trpc/react-query": "^10.45.0",
+    "@trpc/server": "^10.45.0",
+    "@types/node": "20.11.5",
+    "@types/pg": "^8.10.9",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "babylonjs": "^6.38.1",
+    "classnames": "^2.5.1",
+    "eslint": "8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "ky": "^1.2.0",
+    "next": "14.2.35",
+    "next-build-id": "^3.0.0",
+    "pg": "^8.11.3",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.3.3",
+    "winston": "^3.11.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "vercel": "^33.1.0"
+  },
+  "packageManager": "yarn@4.0.2"
 }
